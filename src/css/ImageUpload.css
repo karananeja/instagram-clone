@@ -1,0 +1,39 @@
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 10px auto;
+  background-color: white;
+}
+
+.imageUpload__progress {
+  width: 100%;
+}
+
+.imageUpload__input {
+  padding: 10px;
+  border: 1px solid lightgray;
+  outline-width: 0;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.imageUpload__file {
+  margin-top: 5px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.imageUpload__file:hover {
+  color: #1976d2;
+  background-color: rgba(25, 118, 210, 0.01);
+}
+
+.imageUpload__file,
+.imageUpload__file > .MuiIcon-root {
+  display: flex;
+  align-items: center;
+}
